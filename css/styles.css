@@ -1,0 +1,305 @@
+@font-face {
+    src: url(../fonts/SF-Pro-Text-Regular.otf);
+    font-family: apple;
+}
+@font-face {
+    src: url(../fonts/SF-Pro-Text-Medium.otf);
+    font-family: apple-medium;
+}
+@font-face {
+    src: url(../fonts/SF-Pro-Text-Thin.otf);
+    font-family: apple-thin;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Here my introduction */
+
+.intro-container {
+    background-image: linear-gradient(#fdfbfb, #ebedee);
+    width: 30%;
+    height: 100vh;
+    font-family: apple-thin;
+}
+
+.intro-container-me {
+    display: flex;
+    align-items: center;
+    height: 60%;
+    /*background-color: blue;*/
+}
+
+.intro-container-me-item {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.me {
+    margin: 0 auto;
+    border-radius: 320px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #be30d1;
+    margin-bottom: 60px;
+}
+
+.my-info {
+    
+}
+
+.name {
+
+}
+
+.age {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.logos-container {
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.logos-container-item {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    border-top: 1px solid #be30d1;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.final-logos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.fab {
+    font-size: 30px;
+    color: black;
+}
+
+spam {
+    color: #be30d1;
+}
+/* Here the page content */
+
+.info-container {
+    height: 100vh;
+    width: 70%;
+    /*background-color: tomato;*/
+    background-image: url("../images/mountain.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    font-family: apple-medium;
+}
+
+.info-inside {
+    margin: 0 auto;
+    max-width: 800px;
+    /*background-color:rgba( 0, 0, 0, 0.5);*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-principal {
+    /*background-color: gray;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 50px;
+    width: 400px;
+    margin-top: 80px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.menu-principal li {
+    list-style-type: none;
+}
+
+.menu-platform {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    /*background-color: black;*/
+}
+
+.menu-platform li {
+    list-style-type: none;
+}
+
+.platform-item a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.line {
+    border-left: 1px solid #be30d1;
+    border-right: 1px solid #be30d1;
+}
+
+.info-content {
+    width: 100%;
+    /*background-color: blue;*/
+    margin-top: 80px
+}
+
+.info-content-projects {
+    margin-top: 60px;
+}
+
+.info-title {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.title-spam {
+    font-size: 60px;
+}
+
+.info-text {
+    margin-top: 40px;
+    font-size: 20px;
+    color: gray;
+    text-indent: 40px; 
+    line-height: 1.6;
+}
+
+.contact-text {
+    text-indent: 5px;
+    font-size: 25px;
+}
+
+.projects {
+    margin-top: 80px;
+    max-width: 800px;
+    display: flex;
+    overflow: scroll;
+    padding: 20px 20px;
+    border-right: 1px solid #E6E4E4;
+}
+
+.webimage {
+    margin-right: 20px;
+    height: 120px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.iosimage {
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+/* Phone screen */
+
+@media only screen and (max-width: 700px){
+    .app-container {
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Here my introduction */
+
+    .intro-container {
+        width: 100%;
+    }
+
+    .intro-container-me {
+        height: 70%;
+    }
+
+    .info-container {
+        width: 100%;
+        background-image: url('../images/mountain.png');
+        background-size: 250px;
+    }
+
+    .me {
+        margin-bottom: 40px;
+    }
+
+    .logos-container {
+        height: 30%;
+    }
+
+    .logos-container-item {
+        margin-bottom: 30px
+    }
+
+    /* Here the page content */
+
+    .menu-principal {
+        width: 250px;
+        margin-top: 40px;
+    }
+
+    .menu-item a {
+        font-size: ;
+    }
+
+    .menu-platform {
+        max-width: 150px;
+    }
+
+    .info-content {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .info-content-projects {
+        margin-top: 50px;
+    }
+
+    .info-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .info-text {
+        font-size: 17px;
+    }
+
+    .contact-text {
+        font-size: 17px;
+    }
+
+    .platform-item a{
+        font-size: 24px;
+    }
+
+    .projects {
+        margin-top: 30px;
+    }
+}
