@@ -203,6 +203,7 @@ spam {
     overflow: scroll;
     padding: 20px 20px;
     border-right: 1px solid #E6E4E4;
+    border-left: 1px solid #E6E4E4;
 }
 
 .webimage {
@@ -218,6 +219,19 @@ spam {
     margin-right: 40px;
     border-radius: 10px;
     border: 2px solid black;
+}
+
+.grow {
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.menu-item a:hover {
+    color: #be30d1;
 }
 
 
