@@ -316,4 +316,8 @@ spam {
     .projects {
         margin-top: 30px;
     }
+    
+    .grow:hover {
+        transform: none;
+    }
 }
