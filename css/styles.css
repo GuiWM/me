@@ -96,6 +96,11 @@
     color: black;
 }
 
+.fab:hover {
+    color: #be30d1;
+    transition: color 500ms;
+}
+
 spam {
     color: #be30d1;
 }
